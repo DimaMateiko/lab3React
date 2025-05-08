@@ -15,6 +15,7 @@ function App() {
   return (
     <>
       <Navigation />
+      
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/about" element={<About />} />

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 export default function Navigation() {
   return (
     <>
@@ -34,10 +34,10 @@ export default function Navigation() {
 
       <nav className="navbar navbar-expand-lg navbar-light shadow">
         <div className="container d-flex justify-content-between align-items-center">
-          <a className="navbar-brand text-success logo h1 align-self-center" href="index.html">
+          <Link to="/" className="navbar-brand text-success logo h1 align-self-center">
             {" "}
             Zay{" "}
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler border-0"
